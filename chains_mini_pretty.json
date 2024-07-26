@@ -4194,8 +4194,8 @@
     "symbol": "DNA",
     "decimals": 18
   },
-  "rpc": ["https://devnet.darwinchain.ai"],
-  "faucets": ["https://devnet.darwinchain.ai/faucet"],
+  "rpc": ["https://devnet-rpc.darwinchain.ai"],
+  "faucets": ["https://devnet-rpc.darwinchain.ai/faucet"],
   "infoURL": "https://darwinchain.ai"
 }, {
   "name": "EIOB Mainnet",
@@ -8410,6 +8410,19 @@
   "faucets": [],
   "infoURL": "https://findora.org/"
 }, {
+  "name": "Animechain Testnet",
+  "chainId": 2162,
+  "shortName": "animechaint",
+  "networkId": 2162,
+  "nativeCurrency": {
+    "name": "Coin",
+    "symbol": "COIN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.kanda.animechain.ai"],
+  "faucets": [],
+  "infoURL": "https://animechain.ai"
+}, {
   "name": "Moonsama Network",
   "chainId": 2199,
   "shortName": "msn",
@@ -10333,6 +10346,19 @@
   "rpc": ["https://testnet.blackfort.network/rpc"],
   "faucets": [],
   "infoURL": "https://blackfort.exchange"
+}, {
+  "name": "World Chain Sepolia Testnet",
+  "chainId": 4801,
+  "shortName": "wcsep",
+  "networkId": 4801,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://worldcoin.org/"
 }, {
   "name": "Globel Chain",
   "chainId": 4893,
@@ -12761,7 +12787,7 @@
     "symbol": "tWVM",
     "decimals": 18
   },
-  "rpc": ["https://testnet.wvm.dev"],
+  "rpc": ["https://testnet.wvm.dev", "https://testnet-rpc.wvm.dev"],
   "faucets": [],
   "infoURL": "https://wvm.dev"
 }, {
@@ -15231,7 +15257,7 @@
     "symbol": "MOVE",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://mevm.testnet.imola.movementlabs.xyz"],
   "faucets": [],
   "infoURL": "https://movementlabs.xyz"
 }, {
@@ -15989,6 +16015,19 @@
   "faucets": [],
   "infoURL": "https://fusion.org"
 }, {
+  "name": "Neo X Mainnet",
+  "chainId": 47763,
+  "shortName": "neox-mainnet",
+  "networkId": 47763,
+  "nativeCurrency": {
+    "name": "Gas",
+    "symbol": "GAS",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-1.rpc.banelabs.org"],
+  "faucets": [],
+  "infoURL": "https://neo.org/"
+}, {
   "name": "REI Network",
   "chainId": 47805,
   "shortName": "REI",
@@ -16557,7 +16596,7 @@
     "symbol": "BTC",
     "decimals": 18
   },
-  "rpc": ["https://rpc.orangechain.xyz"],
+  "rpc": ["https://rpc.orangechain.xyz", "https://hk-rpc.orangechain.xyz"],
   "faucets": [],
   "infoURL": "https://orangechain.xyz"
 }, {
@@ -16690,6 +16729,19 @@
   "rpc": ["https://subnets.avax.network/plyr/testnet/rpc"],
   "faucets": ["https://faucet.avax.network/?subnet=plyr"],
   "infoURL": "https://plyr.network"
+}, {
+  "name": "LAOS Sigma Testnet",
+  "chainId": 62850,
+  "shortName": "laossigma",
+  "networkId": 62850,
+  "nativeCurrency": {
+    "name": "SIGMA",
+    "symbol": "SIGMA",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.laossigma.laosfoundation.io", "wss://rpc.laossigma.laosfoundation.io"],
+  "faucets": [],
+  "infoURL": "https://laosnetwork.io"
 }, {
   "name": "eCredits Mainnet",
   "chainId": 63000,
@@ -18199,6 +18251,19 @@
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
 }, {
+  "name": "MARS Credit",
+  "chainId": 110110,
+  "shortName": "mars",
+  "networkId": 110110,
+  "nativeCurrency": {
+    "name": "Mars",
+    "symbol": "MARS",
+    "decimals": 18
+  },
+  "rpc": ["https://node99-production-dd5f.up.railway.app:443"],
+  "faucets": [],
+  "infoURL": "https://marscredit.xyz/"
+}, {
   "name": "Siberium Test Network",
   "chainId": 111000,
   "shortName": "testsbr",
@@ -18234,7 +18299,7 @@
     "symbol": "reETH",
     "decimals": 18
   },
-  "rpc": ["https://real.drpc.org", "wss://real.drpc.org"],
+  "rpc": ["https://tangible-real.gateway.tenderly.co", "wss://tangible-real.gateway.tenderly.co", "https://real.drpc.org", "wss://real.drpc.org"],
   "faucets": [],
   "infoURL": "https://re.al"
 }, {
@@ -19603,9 +19668,9 @@
   "faucets": [],
   "infoURL": "https://www.openchain.live"
 }, {
-  "name": "World Chain Sepolia Testnet",
+  "name": "World Chain Sepolia Testnet Deprecated",
   "chainId": 484752,
-  "shortName": "wcsep",
+  "shortName": "wcsep-dep",
   "networkId": 484752,
   "nativeCurrency": {
     "name": "Sepolia Ether",
@@ -22550,7 +22615,7 @@
     "symbol": "GS-ETH",
     "decimals": 18
   },
-  "rpc": ["https://gitswarm.com:2096"],
+  "rpc": ["https://testnet.gitswarm.com:2096"],
   "faucets": [],
   "infoURL": "https://gitswarm.com/"
 }, {
