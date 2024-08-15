@@ -24468,7 +24468,7 @@
 }, {
   "name": "DucatusX Testnet",
   "chain": "DUCX",
-  "rpc": ["https://ducx-testnet-node1.rocknblock.io/", "https://ducx-testnet-node2.rocknblock.io/"],
+  "rpc": ["https://ducx-testnet-node1.rocknblock.io", "https://ducx-testnet-node2.rocknblock.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DUCX",
@@ -24488,7 +24488,7 @@
 }, {
   "name": "DucatusX",
   "chain": "DUCX",
-  "rpc": ["https://ducx-mainnet-node1.rocknblock.io", "https://ducx-mainnet-node2.rocknblock.io/", "https://ducx-mainnet-node3.rocknblock.io/"],
+  "rpc": ["https://ducx-mainnet-node1.rocknblock.io", "https://ducx-mainnet-node2.rocknblock.io", "https://ducx-mainnet-node3.rocknblock.io"],
   "faucets": [],
   "nativeCurrency": {
     "name": "DUCX",
