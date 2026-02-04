@@ -1871,6 +1871,14 @@
     "format": "png"
   }]
 }, {
+  "name": "irys",
+  "icons": [{
+    "url": "ipfs://QmdGLHxA4W4N2h7y8ixSUEKhESCT9qmJsenGuyskqr7x1e",
+    "width": 1000,
+    "height": 1000,
+    "format": "png"
+  }]
+}, {
   "name": "bomb",
   "icons": [{
     "url": "ipfs://Qmc44uSjfdNHdcxPTgZAL8eZ8TLe4UmSHibcvKQFyGJxTB",
@@ -8458,6 +8466,14 @@
     "url": "ipfs://QmbvuHpn8Np5uTTbVNgv4JHCj2zfHBfmSoRcVNdWbcV5Vq",
     "width": 226,
     "height": 104,
+    "format": "png"
+  }]
+}, {
+  "name": "pochain",
+  "icons": [{
+    "url": "ipfs://bafkreigxoer3jdv5hysomlo4lbpk4gibcmbhuwj4hkmbqcwiuxa26qy4je",
+    "width": 32,
+    "height": 32,
     "format": "png"
   }]
 }, {
